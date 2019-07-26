@@ -1,6 +1,6 @@
 # Description
 
-This is an updated version of Rob Oake's venerable LaTeX texMemo class.
+This is an updated version of Rob Oakes' venerable LaTeX texMemo class.
 
 # Changes
 
