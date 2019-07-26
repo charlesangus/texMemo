@@ -1,0 +1,17 @@
+\documentclass[paper=letter]{texMemo}
+
+\input{header.tex}
+
+\ifthenelse{\equal{\@memodraft}{\relax}}{}{%
+    \RequirePackage{palatino}
+    \usepackage{draftwatermark}
+    \SetWatermarkText{DRAFT}
+    \SetWatermarkLightness{.95}
+}
+
+\begin{document}
+\maketitle
+
+\input{body.tex}
+
+\end{document}
